@@ -1,4 +1,4 @@
-github oauth app 快速模板
+github oauth app localhost測試 快速模板
 
 1. 進入github > settings > Developer settings > Oauth Apps
 2. 右上角 [New OAuth App] 進去, 以下必填欄位
@@ -6,7 +6,7 @@ github oauth app 快速模板
     2.1 Application name: 自己隨便填
 
     2.2 Homepage URL:  http://localhost:3002
-    
+
     2.3 Authorization callback URL: http://localhost:3002/oauth/callback
 
 3. 下方 Register application 後, 頁面有兩個ID要拿, Client ID, Client secrets, 複製起來
