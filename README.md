@@ -12,12 +12,14 @@ github oauth app localhost測試 快速模板
 3. 下方 Register application 後, 頁面有兩個ID要拿, Client ID, Client secrets, 複製起來
 
 4. 前端程式碼
+
 public/index.html
 ```js
 <a href="https://github.com/login/oauth/authorize?client_id=xxxxx&scope=user">Login with GitHub</a>
 // client_id=xxxxx, xxxxx 換成剛剛拿到的 Client ID
 ```
 5. 後端程式碼
+
 app.js 內, 填入拿到的 Client ID, Client secrets
 ```js
 const clientID= ""
