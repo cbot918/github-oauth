@@ -30,7 +30,7 @@ app.get('/oauth/callback', (req, res) => {
       if (!error && response.statusCode == 200) {
           const accessToken = JSON.parse(body).access_token;
           console.log(accessToken)
-          //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
+          
           // Use the access token to access the GitHub API or redirect the user
         
           const userInfoOptions = {
